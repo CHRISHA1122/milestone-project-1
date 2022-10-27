@@ -1,11 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
 
-body {
+/*--------------------------------------------Margins/paddings/text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
     font-family: Roboto, Lato, sans-serif;
+    font-weight: 300;
     color: #051975;
 }
 
 /*--------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
 
 #logo {
     background: url("../images/electrician-logo.jpg");
@@ -32,4 +50,48 @@ body {
     letter-spacing: 0.5rem;
     margin-left: 5rem;
     margin-bottom: 0;
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: #99999B;
+    min-height: 10rem;
+    margin: 0;
+}
+footer p {
+    margin-top: 0.5rem;
+}
+
+.footer-logo {
+    background: url("../images/electrician-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 10rem;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.social {
+    font-weight: 500;
+}
+
+.social-links li a i {
+    width: 5rem;
+    height: 5rem;
+    padding: 2.5rem 0;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 0;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: #F35A35;
+    background-color: #051975;;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
