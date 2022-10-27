@@ -2,11 +2,14 @@
 
 /*--------------------------------------------Margins/paddings/text*/
 
-h1,
-h2,
-h3,
-h4 {
+body {
     margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Roboto, Lato, sans-serif;
+    font-weight: 500;
+    color: #F35A35;
+    background-color: #01203E;
 }
 
 .uppercase {
@@ -15,18 +18,31 @@ h4 {
 
 .general-sub {
     font-family: Roboto, Lato, sans-serif;
-    font-weight: 300;
-    color: #051975;
+    font-weight: 500;
+    color: #F35A35;
 }
 
 /*--------------------------------------------Heading*/
 
 header {
     margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 #logo {
     background: url("../images/electrician-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 12rem;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.navbar {
+    background: url("../images/wires.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,37 +54,56 @@ header {
 
 .navbar .navbar-brand {
     color: #F35A35;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
+.navbar .navbar-brand i:hover {
+    color: #FEFEFE;
+}
+
 #navbarNav .nav-link {
-    color: #051975;
+    color: #F35A35;
     float: right;
     font-size: 1.8rem;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    margin-left: 5rem;
+    margin-left: 6rem;
     margin-bottom: 0;
+    margin-top: 8.5rem;
+}
+
+.navbar-nav a:hover {
+    color: #FEFEFE !important;
 }
 
 /*--------------------------------------------Footer*/
 
 footer {
-    background-color: #99999B;
-    min-height: 10rem;
     margin: 0;
+    min-height: 10rem;
+    padding: 0;
+    border: 0;
 }
-footer p {
+
+.info {
+    font-size: 1rem;
+    text-align: center;
     margin-top: 0.5rem;
 }
 
-.footer-logo {
+.info i:hover {
+    color: #FEFEFE;
+}
+
+#footer-logo {
     background: url("../images/electrician-logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 10rem;
+    background-size: cover;
+    min-height: 12rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -88,10 +123,15 @@ footer p {
     line-height: 0;
     margin-top: 2rem;
     margin-left: 2rem;
-    color: #F35A35;
-    background-color: #051975;;
+    color: #1B4C86;
+    background-color: #F35A35;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #FEFEFE;
+    color: #F35A35;
 }
