@@ -68,6 +68,59 @@ body {
     color: #FEFEFE !important;
 }
 
+/*--------------------------------------------Content*/
+
+.worker {
+    background: url("../images/electrician-worker.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65rem;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.cert-one {
+    height: 22rem;
+    width: 22rem;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    float: left;
+    font-size: 4rem;
+    color: #F35A35;
+}
+
+.cert-two {
+    height: 22rem;
+    width: 22rem;
+    margin-top: 8rem;
+    margin-right: 10rem;
+    float: right;
+    font-size: 4rem;
+    color: #F35A35;
+}
+
+.cert-three {
+    height: 22rem;
+    width: 22rem;
+    margin-top: 6rem;
+    margin-left: 10rem;
+    float: left;
+    font-size: 4rem;
+    color: #F35A35;
+}
+
+.cert-four {
+    height: 22rem;
+    width: 22rem;
+    margin-top: 6rem;
+    margin-right: 10rem;
+    float: right;
+    font-size: 4rem;
+    color: #F35A35;
+}
+
 /*--------------------------------------------Footer*/
 
 .info {
