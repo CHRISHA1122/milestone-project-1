@@ -8,7 +8,7 @@ html {
 
 body {
     font-family: Roboto, Lato, sans-serif;
-    color: #F35A35;
+    color: #FEFEFE;
     background-color: #01203E;
 }
 
@@ -16,7 +16,7 @@ body {
     background: url("../images/electrician-logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 10rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -41,84 +41,117 @@ body {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.navbar .navbar-brand {
+.navbar .navbar-brand h1 {
     color: #F35A35;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.4rem;
+}
+
+.navbar .navbar-brand i {
+    color: #FEFEFE;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
 }
 
 .navbar .navbar-brand i:hover {
-    color: #FEFEFE;
+    color: #F35A35;
 }
 
 #navbarNav .nav-link {
-    color: #F35A35;
+    color: #FEFEFE;
     float: right;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
-    letter-spacing: 0.3rem;
-    margin-left: 14rem;
+    letter-spacing: 0.4rem;
+    margin-left: 10rem;
     margin-bottom: 0;
     margin-top: 16rem;
     padding-bottom: 0;
 }
 
 .navbar-nav a:hover {
-    color: #FEFEFE !important;
+    color: #F35A35 !important;
 }
 
-/*--------------------------------------------Content*/
+/*--------------------------------------------Content Home*/
 
-.worker {
-    background: url("../images/electrician-worker.avif");
+.van {
+    background: url("../images/electricians-van.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 65rem;
+    min-height: 60rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
 .cert-one {
-    height: 22rem;
-    width: 22rem;
-    margin-top: 8rem;
-    margin-left: 10rem;
+    height: 18rem;
+    width: 18rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
     float: left;
     font-size: 4rem;
     color: #F35A35;
 }
 
 .cert-two {
-    height: 22rem;
-    width: 22rem;
-    margin-top: 8rem;
-    margin-right: 10rem;
+    height: 18rem;
+    width: 18rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
     float: right;
     font-size: 4rem;
     color: #F35A35;
 }
 
 .cert-three {
-    height: 22rem;
-    width: 22rem;
-    margin-top: 6rem;
-    margin-left: 10rem;
+    height: 18rem;
+    width: 18rem;
+    margin-top: 18rem;
+    margin-left: 1.5rem;
     float: left;
     font-size: 4rem;
     color: #F35A35;
 }
 
 .cert-four {
-    height: 22rem;
-    width: 22rem;
-    margin-top: 6rem;
-    margin-right: 10rem;
+    height: 18rem;
+    width: 18rem;
+    margin-top: 18rem;
+    margin-right: 2rem;
     float: right;
     font-size: 4rem;
     color: #F35A35;
+}
+
+/*--------------------------------------------Content About*/
+
+.worker {
+    background: url("../images/electrician-worker.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60rem;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/*--------------------------------------------Content Contact*/
+
+.worker-two {
+    background: url("../images/electrician-worker-two.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60rem;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 /*--------------------------------------------Footer*/
@@ -130,11 +163,15 @@ body {
     text-align: center;
     letter-spacing: 0.3rem;
     margin-top: 1rem;
+    color: #FEFEFE;
+}
+
+.info h1 {
     color: #F35A35;
 }
 
 .info i:hover {
-    color: #FEFEFE;
+    color: #F35A35;
 }
 
 .social-links li a i {
@@ -149,7 +186,7 @@ body {
     margin-left: 5rem;
     margin-right: 2rem;
     color: #1B4C86;
-    background-color: #F35A35;
+    background-color: #FEFEFE;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -157,6 +194,6 @@ body {
 }
 
 .social-links li a i:hover {
-    background-color: #FEFEFE;
-    color: #F35A35;
+    background-color: #F35A35;
+    color: #FEFEFE;
 }
