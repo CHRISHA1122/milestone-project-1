@@ -21,6 +21,7 @@ body {
 header {
     position: fixed;
     top: 0;
+    background-color: #01203E;
     min-height: 10rem;
     max-height: 18rem;
     width: 100%;
@@ -50,7 +51,7 @@ header {
 }
 
 .navbar .navbar-brand h1 {
-    color: #F35A35;
+    color: #FEFEFE;
     font-size: 3.5rem;
     font-weight: bold;
     letter-spacing: 0.4rem;
@@ -150,6 +151,16 @@ header {
     color: #F35A35;
 }
 
+.cert-multi {
+    background: url("../images/niceic-cert-multi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 /*--------------------------------------------Content About*/
 
 .worker {
@@ -223,7 +234,6 @@ footer {
     line-height: 0;
     margin-top: 3rem;
     margin-left: 5rem;
-    margin-right: 2rem;
     color: #1B4C86;
     background-color: #FEFEFE;
     transition: all 0.35s ease-in-out;
@@ -239,7 +249,7 @@ footer {
 
 /*--------------------------------------------Media Query*/
 
-@media (min-width: 280px) {
+@media (min-width: 280px) and (max-width: 400px) {
     .logo-header {
         background-size: contain;
         background-position: left;
@@ -277,7 +287,6 @@ footer {
     }
 
     .logo-footer {
-        background: url("../images/electrician-logo.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -285,7 +294,6 @@ footer {
     }
 
     .cert-multi {
-        background: url("../images/niceic-cert-multi.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -301,5 +309,157 @@ footer {
         font-size: 3rem;
         margin-left: 1.8rem;
         margin-right: 1.8rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+
+    .logo-header {
+        background-size: contain;
+        background-position: left;
+        min-height: 10rem;
+        max-height: 12rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .navbar-toggler-icon {
+        min-height: 10rem;
+        max-height: 12rem;
+        min-width: 10rem;
+        max-width: 12rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+
+    .navbar {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 12rem;
+        max-height: 18rem;
+        margin-top: 2rem;
+    }
+
+    .van {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 40rem;
+        margin-top: 27rem;
+    }
+
+    .logo-footer {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 10rem;
+    }
+
+    .cert-multi {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 10rem;
+        margin-bottom: 10rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .social-links li a i {
+        width: 6rem;
+        height: 6rem;
+        font-size: 3rem;
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 990px) {
+    .logo-header {
+        background-size: contain;
+    }
+
+    .navbar-toggler-icon {
+        min-height: 10rem;
+        max-height: 12rem;
+        min-width: 10rem;
+        max-width: 12rem;
+        margin-right: 2rem;
+        margin-top: 4rem;
+    }
+
+    .van {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 40rem;
+        margin-top: 20rem;
+    }
+
+    .cert-one {
+        height: 12rem;
+        width: 12rem;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        float: left;
+        font-size: 2rem;
+    }
+    
+    .cert-two {
+        height: 12rem;
+        width: 12rem;
+        margin-top: 1rem;
+        margin-right: 1.5rem;
+        float: right;
+        font-size: 2rem;
+    }
+    
+    .cert-three {
+        height: 12rem;
+        width: 12rem;
+        margin-top: 22rem;
+        margin-left: 1.5rem;
+        float: left;
+        font-size: 2rem;
+    }
+    
+    .cert-four {
+        height: 12rem;
+        width: 12rem;
+        margin-top: 22rem;
+        margin-right: 1.5rem;
+        float: right;
+        font-size: 2rem;
+    }
+
+    .logo-footer {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 10rem;
+        max-height: 15rem;
+        min-width: 18rem;
+        max-width: 2rem;
+    }
+
+    .cert-multi {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 10rem;
+        margin-bottom: 10rem;
+        margin-top: 8rem;
+        padding-top: 0;
+    }
+
+    .info {
+        margin-left: 8rem;
+    }
+
+    .social-links li a i {
+        width: 6rem;
+        height: 6rem;
+        font-size: 3rem;
+        margin-left: 0.5rem;
+        margin-right: 1rem;
     }
 }
