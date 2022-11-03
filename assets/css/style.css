@@ -12,89 +12,49 @@ body {
     background-color: #01203E;
 }
 
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
 .uppercase {
     text-transform: uppercase;
 }
 
 /*--------------------------------------------Heading*/
 
-header {
-    position: fixed;
-    top: 0;
-    background-color: #01203E;
-    min-height: 10rem;
-    max-height: 18rem;
-    width: 100%;
-}
-
-.logo-header {
-    background: url("../images/electrician-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 10rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
 .navbar {
-    background: url("../images/wires.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 10rem;
-    max-height: 18rem;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    font-size: 3rem;
 }
 
 .navbar .navbar-brand h1 {
-    color: #ED1B24;
-    font-size: 3.5rem;
-    font-weight: bold;
-    letter-spacing: 0.4rem;
+    color: #2c2c2c;
+    font-size: 3rem;
 }
 
-.navbar .navbar-brand i {
-    color: #F35A35;
-    font-size: 3.5rem;
-    font-weight: bold;
-    letter-spacing: 0.4rem;
-}
-
-.navbar .navbar-brand i:hover {
-    color: #FEFEFE;
-}
-
-#navbarNav .nav-link {
-    color: #FEFEFE;
-    float: right;
-    font-size: 3.5rem;
-    font-weight: bold;
-    letter-spacing: 0.4rem;
-    margin-left: 10rem;
+.navbar-nav p {
+    color: #2c2c2c;
+    margin-left: 6rem;
     margin-bottom: 0;
-    margin-top: 14rem;
     padding-bottom: 0;
 }
 
-.navbar-nav a:hover {
-    color: #F35A35 !important;
+.navbar-nav i {
+    color: #2c2c2c;
+    font-size: 3rem;
 }
 
-.navbar-toggler-icon {
-    background-color: #FEFEFE;
-    min-height: 8rem;
-    max-height: 10rem;
-    min-width: 8rem;
-    max-width: 10rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    position: fixed;
-    top: 0;
-    right: 0;
+.navbar .navbar-brand h1:hover {
+    color: #01203E;
+}
+
+.navbar .nav-item p:hover {
+    color: #01203E;
+}
+
+.navbar-nav i:hover {
+    color: #01203E;
 }
 
 /*--------------------------------------------Content Home*/
@@ -104,61 +64,51 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 60rem;
-    margin-top: 18rem;
+    height: auto;
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
 .cert-one {
-    height: 18rem;
-    width: 18rem;
-    margin-top: 3rem;
-    margin-left: 1.5rem;
+    height: 16rem;
+    width: 16rem;
+    margin-left: 2rem;
     float: left;
     font-size: 4rem;
-    color: #F35A35;
+    color: #FEFEFE;
 }
 
 .cert-two {
-    height: 18rem;
-    width: 18rem;
-    margin-top: 3rem;
+    height: 16rem;
+    width: 16rem;
     margin-right: 2rem;
     float: right;
     font-size: 4rem;
-    color: #F35A35;
+    color: #FEFEFE;
 }
 
 .cert-three {
-    height: 18rem;
-    width: 18rem;
-    margin-top: 18rem;
-    margin-left: 1.5rem;
+    height: 16rem;
+    width: 16rem;
+    margin-top: 16rem;
+    margin-left: 2rem;
     float: left;
     font-size: 4rem;
-    color: #F35A35;
+    color: #FEFEFE;
 }
 
 .cert-four {
-    height: 18rem;
-    width: 18rem;
-    margin-top: 18rem;
+    height: 16rem;
+    width: 16rem;
+    margin-top: 16rem;
     margin-right: 2rem;
     float: right;
     font-size: 4rem;
-    color: #F35A35;
-}
-
-.cert-multi {
-    background: url("../images/niceic-cert-multi.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 20rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    color: #FEFEFE;
 }
 
 /*--------------------------------------------Content About*/
@@ -168,7 +118,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 60rem;
+    height: auto;
+    width: 100%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -181,7 +132,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 60rem;
+    height: auto;
+    width: 100%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -189,16 +141,11 @@ header {
 
 /*--------------------------------------------Footer*/
 
-footer {
-    min-height: 5rem;
-    max-height: 18rem;
-}
-
-.logo-footer {
+.logo {
     background: url("../images/electrician-logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 10rem;
     max-height: 18rem;
     transition: all .5s ease-in-out;
@@ -217,182 +164,153 @@ footer {
 }
 
 .info h1 {
-    color: #F35A35;
+    color: #808080;
 }
 
 .info i:hover {
-    color: #F35A35;
+    color: #808080;
 }
 
-.social-links li a i {
-    width: 10rem;
-    height: 10rem;
-    padding: 5rem 0;
-    font-size: 4rem;
+.social-links {
     text-align: center;
-    border-radius: 50%;
-    line-height: 0;
-    margin-top: 3rem;
-    margin-left: 5rem;
-    color: #1B4C86;
-    background-color: #FEFEFE;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    margin-top: 5rem;
 }
 
-.social-links li a i:hover {
-    background-color: #F35A35;
+.rounded-circle {
+    display: inline;
+    padding: 1rem 1rem 1rem;
+}
+
+.rounded-circle a:hover {
+    color: #16A6FF;
+    background-color: #FEFEFE;
+}
+
+.fa-facebook {
+    padding: 2rem;
+    font-size: 3rem;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
     color: #FEFEFE;
+    background-color: #16A6FF;
+}
+
+.fa-twitter {
+    padding: 2rem;
+    font-size: 3rem;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #FEFEFE;
+    background-color: #16A6FF;
+}
+
+.fa-linkedin {
+    padding: 2rem;
+    font-size: 3rem;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #FEFEFE;
+    background-color: #16A6FF;
 }
 
 /*--------------------------------------------Media Query*/
 
 @media (min-width: 280px) and (max-width: 400px) {
-    .logo-header {
-        background-size: contain;
-        background-position: left;
-        min-height: 8rem;
-        max-height: 10rem;
-        margin-top: 1rem;
-        margin-left: 1rem;
-    }
-
-    .navbar {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 8rem;
-        max-height: 15rem;
-        margin-top: 2rem;
-    }
 
     .navbar .navbar-brand h1 {
-        font-size: 3rem;
-        text-align: center;
-        margin-bottom: 0.5rem;
+        font-size: 2rem;
     }
 
-    .navbar .navbar-brand i {
-        font-size: 3rem;
+    .navbar-nav p {
+        font-size: 1.8rem;
+    }
+
+    .navbar-nav i {
+        font-size: 2.5rem;
     }
 
     .van {
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
-        min-height: 40rem;
-        margin-top: 20rem;
-    }
-
-    .logo-footer {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        min-height: 10rem;
+        background-size: cover;
+        min-height: 20rem;
+        width: 100%;
     }
 
     .cert-multi {
+        background: url("../images/niceic-cert-multi.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         min-height: 10rem;
-        margin-bottom: 10rem;
-        margin-top: 0;
-        padding-top: 0;
     }
 
-    .social-links li a i {
-        width: 6rem;
-        height: 6rem;
-        font-size: 3rem;
-        margin-left: 1.8rem;
-        margin-right: 1.8rem;
+    .logo {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: auto;
     }
+
+    .fa-facebook {
+        padding: 1.5rem;
+        width: 6rem;
+    }
+
+    .fa-twitter {
+        padding: 1.5rem;
+        width: 6rem;
+    }
+    
+    .fa-linkedin {
+        padding: 1.5rem;
+        width: 6rem;
+    }
+    
+    
 }
 
 @media (min-width: 400px) and (max-width: 575px) {
 
-    .logo-header {
-        background-size: contain;
-        background-position: left;
-        min-height: 10rem;
-        max-height: 12rem;
-        margin-top: 2rem;
-        margin-left: 2rem;
-    }
-
-    .navbar-toggler-icon {
-        min-height: 10rem;
-        max-height: 12rem;
-        min-width: 10rem;
-        max-width: 12rem;
-        margin-right: 2rem;
-        margin-top: 2rem;
-    }
-
-    .navbar {
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 12rem;
-        max-height: 18rem;
-        margin-top: 2rem;
-    }
-
     .van {
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
-        min-height: 40rem;
-        margin-top: 27rem;
-    }
-
-    .logo-footer {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        min-height: 10rem;
+        background-size: cover;
+        min-height: 25rem;
+        width: 100%;
     }
 
     .cert-multi {
+        background: url("../images/niceic-cert-multi.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         min-height: 10rem;
-        margin-bottom: 10rem;
-        margin-top: 0;
-        padding-top: 0;
     }
 
-    .social-links li a i {
-        width: 6rem;
-        height: 6rem;
-        font-size: 3rem;
-        margin-left: 4rem;
+    .logo {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: auto;
     }
+
 }
 
-@media (min-width: 575px) and (max-width: 990px) {
-    .logo-header {
-        background-size: contain;
-    }
-
-    .navbar-toggler-icon {
-        min-height: 10rem;
-        max-height: 12rem;
-        min-width: 10rem;
-        max-width: 12rem;
-        margin-right: 2rem;
-        margin-top: 4rem;
-    }
+@media (min-width: 575px) and (max-width: 770px) {
 
     .van {
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
-        min-height: 40rem;
-        margin-top: 20rem;
+        background-size: cover;
+        min-height: 25rem;
+        width: 100%;
     }
 
     .cert-one {
@@ -431,73 +349,41 @@ footer {
         font-size: 2rem;
     }
 
-    .logo-footer {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 10rem;
-        max-height: 15rem;
-        min-width: 18rem;
-        max-width: 2rem;
-    }
-
-    .cert-multi {
+    .logo {
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        min-height: 10rem;
-        margin-bottom: 10rem;
-        margin-top: 8rem;
-        padding-top: 0;
-    }
-
-    .info {
-        margin-left: 8rem;
-    }
-
-    .social-links li a i {
-        width: 6rem;
-        height: 6rem;
-        font-size: 3rem;
-        margin-left: 0.5rem;
-        margin-right: 1rem;
+        height: auto;
     }
 }
 
-@media (min-width: 990px) and (max-width: 1280px) {
+@media (min-width: 770px) and (max-width: 990px) {
 
-    #navbarNav .nav-link {
-        margin-left: 2.5rem;
-    }
-
-    .cert-multi {
-        background-position: center;
+    .logo {
+        background-position: left;
         background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 14rem;
-        margin-bottom: 8rem;
-        margin-top: 6rem;
-        padding-top: 0;
-    }
-
-    .logo-footer {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 15rem;
-        max-height: 15rem;
-        min-width: 18rem;
-        max-width: 2rem;
+        background-size: contain;
+        height: auto;
+        margin-top: 2rem;
     }
 
     .info {
-        margin-left: 20rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
     }
 
-    .social-links li a i {
+    .fa-facebook {
+        padding: 1.5rem;
         width: 6rem;
-        height: 6rem;
-        font-size: 3rem;
-        margin-left: 6rem;
+    }
+
+    .fa-twitter {
+        padding: 1.5rem;
+        width: 6rem;
+    }
+    
+    .fa-linkedin {
+        padding: 1.5rem;
+        width: 6rem;
     }
 }
