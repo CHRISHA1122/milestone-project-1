@@ -153,8 +153,7 @@ body {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.info {
-    font-family: Roboto, Lato, sans-serif;
+.info p {
     font-size: 2rem;
     font-weight: bolder;
     text-align: center;
@@ -164,6 +163,11 @@ body {
 }
 
 .info h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    margin-top: 1rem;
     color: #808080;
 }
 
@@ -182,8 +186,8 @@ body {
 }
 
 .rounded-circle a:hover {
-    color: #16A6FF;
-    background-color: #FEFEFE;
+    color: #FEFEFE;
+    background-color: #0077B5;
 }
 
 .fa-facebook {
@@ -193,8 +197,8 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    color: #FEFEFE;
-    background-color: #16A6FF;
+    color: #0077B5;
+    background-color: #FEFEFE;
 }
 
 .fa-twitter {
@@ -204,8 +208,8 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    color: #FEFEFE;
-    background-color: #16A6FF;
+    color: #0077B5;
+    background-color: #FEFEFE;
 }
 
 .fa-linkedin {
@@ -215,8 +219,8 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    color: #FEFEFE;
-    background-color: #16A6FF;
+    color: #0077B5;
+    background-color: #FEFEFE;
 }
 
 /*--------------------------------------------Media Query*/
