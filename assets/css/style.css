@@ -26,6 +26,13 @@ body {
 
 .navbar {
     font-size: 3rem;
+    position: fixed;
+    max-width: 1140px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .navbar .navbar-brand h1 {
@@ -68,6 +75,7 @@ body {
     width: 100%;
     padding-bottom: 5rem;
     padding-top: 5rem;
+    margin-top: 1rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -111,6 +119,15 @@ body {
     color: #FEFEFE;
 }
 
+.cert-multi {
+    background: url("../images/niceic-cert-multi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20rem;
+    width: 100%;
+}
+
 /*--------------------------------------------Content About*/
 
 .worker {
@@ -120,6 +137,7 @@ body {
     background-size: cover;
     height: auto;
     width: 100%;
+    margin-top: 1rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -339,9 +357,9 @@ input {
     .van {
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         min-height: 20rem;
-        width: 100%;
+        margin-top: 1rem;
     }
 
     .cert-multi {
@@ -355,6 +373,7 @@ input {
     .worker {
         background-position: top;
         background-size: contain;
+        margin-top: 1rem;
     }
 
     .box-one {
@@ -396,9 +415,9 @@ input {
     .van {
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         min-height: 25rem;
-        width: 100%;
+        margin-top: 1rem;
     }
 
     .cert-multi {
@@ -412,6 +431,7 @@ input {
     .worker {
         background-position: top;
         background-size: contain;
+        margin-top: 1rem;
     }
 
     .box-one {
@@ -437,9 +457,8 @@ input {
     .van {
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         min-height: 25rem;
-        width: 100%;
     }
 
     .cert-one {
@@ -481,6 +500,7 @@ input {
     .worker {
         background-position: top;
         background-size: contain;
+        margin-top: 1rem;
     }
 
     .box-one {
@@ -505,6 +525,7 @@ input {
     .worker {
         background-position: top;
         background-size: contain;
+        margin-top: 1rem;
     }
 
     .box-one {
