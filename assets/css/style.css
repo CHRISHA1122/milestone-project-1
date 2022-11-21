@@ -352,6 +352,20 @@ input {
         min-height: 10rem;
     }
 
+    .worker {
+        background-position: top;
+        background-size: contain;
+    }
+
+    .box-one {
+        margin-top: 25rem;
+        width: 95%;
+    }
+
+    .box-two {
+        width: 95%;
+    }
+
     .logo {
         background-position: center;
         background-repeat: no-repeat;
@@ -393,6 +407,20 @@ input {
         background-repeat: no-repeat;
         background-size: contain;
         min-height: 10rem;
+    }
+
+    .worker {
+        background-position: top;
+        background-size: contain;
+    }
+
+    .box-one {
+        margin-top: 30rem;
+        width: 95%;
+    }
+
+    .box-two {
+        width: 95%;
     }
 
     .logo {
@@ -450,6 +478,20 @@ input {
         font-size: 2rem;
     }
 
+    .worker {
+        background-position: top;
+        background-size: contain;
+    }
+
+    .box-one {
+        margin-top: 45rem;
+        width: 95%;
+    }
+
+    .box-two {
+        width: 95%;
+    }
+
     .logo {
         background-position: center;
         background-repeat: no-repeat;
@@ -459,6 +501,20 @@ input {
 }
 
 @media (min-width: 770px) and (max-width: 990px) {
+
+    .worker {
+        background-position: top;
+        background-size: contain;
+    }
+
+    .box-one {
+        margin-top: 60rem;
+        width: 95%;
+    }
+
+    .box-two {
+        width: 95%;
+    }
 
     .logo {
         background-position: left;
