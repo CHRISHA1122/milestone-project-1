@@ -33,6 +33,7 @@ body {
     right: 0;
     margin: 0 auto;
     width: 100%;
+    z-index: 1;
 }
 
 .navbar .navbar-brand h1 {
@@ -75,7 +76,7 @@ body {
     width: 100%;
     padding-bottom: 5rem;
     padding-top: 5rem;
-    margin-top: 1rem;
+    margin-top: 8rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -137,7 +138,7 @@ body {
     background-size: cover;
     height: auto;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 8rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -182,6 +183,7 @@ body {
     background-size: cover;
     height: auto;
     width: 100%;
+    margin-top: 8rem;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -218,7 +220,7 @@ body {
     height: auto;
     width: 50%;
     color: #000000;
-    font-size: 2.58rem;
+    font-size: 2.5rem;
     text-align: center;
     background-color: #FEFEFE;
     margin: 1rem;
@@ -240,7 +242,7 @@ input {
 }
 
 #message {
-    margin-left: 7.5rem;
+    margin-left: 6rem;
 }
 
 .btn-primary {
@@ -359,7 +361,7 @@ input {
         background-repeat: no-repeat;
         background-size: contain;
         min-height: 20rem;
-        margin-top: 1rem;
+        margin-top: 5rem;
     }
 
     .cert-multi {
@@ -373,7 +375,7 @@ input {
     .worker {
         background-position: top;
         background-size: contain;
-        margin-top: 1rem;
+        margin-top: 5rem;
     }
 
     .box-one {
@@ -383,6 +385,32 @@ input {
 
     .box-two {
         width: 95%;
+    }
+
+    .worker-two {
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 5rem;
+    }
+
+    .contact-box {
+        font-size: 2rem;
+        margin-top: 20rem;
+        width: 95%;
+    }
+
+    .contact-form {
+        font-size: 1.8rem;
+        width: 95%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .btn-primary {
+        font-size: 1.5rem;
+        margin: 1rem;
     }
 
     .logo {
@@ -417,7 +445,7 @@ input {
         background-repeat: no-repeat;
         background-size: contain;
         min-height: 25rem;
-        margin-top: 1rem;
+        margin-top: 7rem;
     }
 
     .cert-multi {
@@ -431,7 +459,7 @@ input {
     .worker {
         background-position: top;
         background-size: contain;
-        margin-top: 1rem;
+        margin-top: 7rem;
     }
 
     .box-one {
@@ -441,6 +469,30 @@ input {
 
     .box-two {
         width: 95%;
+    }
+
+    .worker-two {
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 7rem;
+    }
+
+    .contact-box {
+        font-size: 2rem;
+        margin-top: 25rem;
+        width: 95%;
+    }
+
+    .contact-form {
+        width: 95%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .btn-primary {
+        margin: 1rem;
     }
 
     .logo {
@@ -459,6 +511,10 @@ input {
         background-repeat: no-repeat;
         background-size: contain;
         min-height: 25rem;
+        margin-top: 5rem;
+        padding: 0;
+        border: 0;
+        width: 100%;
     }
 
     .cert-one {
@@ -512,6 +568,29 @@ input {
         width: 95%;
     }
 
+    .worker-two {
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 7rem;
+    }
+
+    .contact-box {
+        margin-top: 35rem;
+        width: 95%;
+    }
+
+    .contact-form {
+        width: 95%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .btn-primary {
+        margin: 1rem;
+    }
+
     .logo {
         background-position: center;
         background-repeat: no-repeat;
@@ -534,6 +613,11 @@ input {
     }
 
     .box-two {
+        width: 95%;
+    }
+
+    .contact-form {
+        font-size: 2.2rem;
         width: 95%;
     }
 
