@@ -67,9 +67,7 @@ The target audience is anyone who needs electrical work doing.
 #### Backgrounds
 
 * Home page background image used as an easy recognisable company van.
-  ![Home Page](assets/images/electricians-van.webp)
 * About page background image used as a friendly face.
-  ![About Page](assets/images/electrician-worker.avif)
 * Contact page background image used to showcase someone working.
 
 ## Wireframes

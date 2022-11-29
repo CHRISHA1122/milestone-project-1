@@ -16,7 +16,7 @@ body {
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
-  }
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -127,6 +127,7 @@ body {
     background-size: contain;
     height: 20rem;
     width: 100%;
+    margin-top: 3rem;
 }
 
 /*--------------------------------------------Content About*/
@@ -366,10 +367,10 @@ input {
 
     .cert-multi {
         background: url("../images/niceic-cert-multi.png");
-        background-position: center;
+        background-position: top;
         background-repeat: no-repeat;
         background-size: contain;
-        min-height: 10rem;
+        height: 5rem;
     }
 
     .worker {
@@ -418,24 +419,25 @@ input {
         background-repeat: no-repeat;
         background-size: contain;
         height: auto;
+        margin-top: 2rem;
     }
 
     .fa-facebook {
-        padding: 1.5rem;
-        width: 6rem;
+        margin-bottom: 4rem;
+        width: 7rem;
     }
 
     .fa-twitter {
-        padding: 1.5rem;
-        width: 6rem;
+        margin-bottom: 4rem;
+        width: 7rem;
     }
-    
+
     .fa-linkedin {
-        padding: 1.5rem;
-        width: 6rem;
+        margin-bottom: 4rem;
+        width: 7rem;
     }
-    
-    
+
+
 }
 
 @media (min-width: 400px) and (max-width: 575px) {
@@ -450,16 +452,15 @@ input {
 
     .cert-multi {
         background: url("../images/niceic-cert-multi.png");
-        background-position: center;
+        background-position: top;
         background-repeat: no-repeat;
         background-size: contain;
-        min-height: 10rem;
+        height: 7rem;
     }
 
     .worker {
         background-position: top;
         background-size: contain;
-        margin-top: 7rem;
     }
 
     .box-one {
@@ -500,6 +501,19 @@ input {
         background-repeat: no-repeat;
         background-size: contain;
         height: auto;
+        margin-top: 2rem;
+    }
+
+    .fa-facebook {
+        margin-bottom: 4rem;
+    }
+
+    .fa-twitter {
+        margin-bottom: 4rem;
+    }
+
+    .fa-linkedin {
+        margin-bottom: 4rem;
     }
 
 }
@@ -525,7 +539,7 @@ input {
         float: left;
         font-size: 2rem;
     }
-    
+
     .cert-two {
         height: 12rem;
         width: 12rem;
@@ -534,7 +548,7 @@ input {
         float: right;
         font-size: 2rem;
     }
-    
+
     .cert-three {
         height: 12rem;
         width: 12rem;
@@ -543,7 +557,7 @@ input {
         float: left;
         font-size: 2rem;
     }
-    
+
     .cert-four {
         height: 12rem;
         width: 12rem;
@@ -596,6 +610,19 @@ input {
         background-repeat: no-repeat;
         background-size: contain;
         height: auto;
+        margin-top: 2rem;
+    }
+
+    .fa-facebook {
+        margin-bottom: 4rem;
+    }
+
+    .fa-twitter {
+        margin-bottom: 4rem;
+    }
+
+    .fa-linkedin {
+        margin-bottom: 4rem;
     }
 }
 
@@ -635,17 +662,14 @@ input {
     }
 
     .fa-facebook {
-        padding: 1.5rem;
-        width: 6rem;
+        width: 8rem;
     }
 
     .fa-twitter {
-        padding: 1.5rem;
-        width: 6rem;
+        width: 8rem;
     }
-    
+
     .fa-linkedin {
-        padding: 1.5rem;
-        width: 6rem;
+        width: 8rem;
     }
 }
