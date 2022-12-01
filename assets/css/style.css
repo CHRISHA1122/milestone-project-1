@@ -83,6 +83,10 @@ body {
 }
 
 .cert-one {
+    background: url("../images/niceic-cert-one.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 16rem;
     width: 16rem;
     margin-left: 2rem;
