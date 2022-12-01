@@ -347,7 +347,7 @@ input {
     font-size: 2.5rem;
     letter-spacing: 0.3rem;
     text-align: center;
-    color: #01203E;
+    color: #000000;
     background-color: #FEFEFE;
 }
 
@@ -407,7 +407,7 @@ input {
 
     .contact-box {
         font-size: 2rem;
-        margin-top: 20rem;
+        margin-top: 22rem;
         width: 95%;
     }
 
@@ -445,6 +445,11 @@ input {
     .fa-linkedin {
         margin-bottom: 4rem;
         width: 7rem;
+    }
+
+    .disclaimer {
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
     }
 
 
@@ -497,7 +502,7 @@ input {
 
     .contact-form {
         width: 95%;
-        margin: 0;
+        margin: 2rem;
         padding: 0;
         border: 0;
     }
@@ -526,9 +531,14 @@ input {
         margin-bottom: 4rem;
     }
 
+    .disclaimer {
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+
 }
 
-@media (min-width: 575px) and (max-width: 770px) {
+@media (min-width: 575px) and (max-width: 780px) {
 
     .van {
         background-position: center;
@@ -606,7 +616,7 @@ input {
 
     .contact-form {
         width: 95%;
-        margin: 0;
+        margin: 2rem;
         padding: 0;
         border: 0;
     }
@@ -636,7 +646,7 @@ input {
     }
 }
 
-@media (min-width: 770px) and (max-width: 990px) {
+@media (min-width: 780px) and (max-width: 990px) {
 
     .worker {
         background-position: top;
@@ -656,6 +666,7 @@ input {
     .contact-form {
         font-size: 2.2rem;
         width: 95%;
+        margin: 2rem;
     }
 
     .logo {
