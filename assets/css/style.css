@@ -248,6 +248,8 @@ input {
 
 .btn-primary {
     font-size: 2rem;
+    color: #FEFEFE;
+    background-color: #000000;
 }
 
 .map {
