@@ -87,7 +87,6 @@ body {
     width: 16rem;
     margin-left: 2rem;
     float: left;
-    font-size: 4rem;
     color: #FEFEFE;
 }
 
@@ -96,7 +95,6 @@ body {
     width: 16rem;
     margin-right: 2rem;
     float: right;
-    font-size: 4rem;
     color: #FEFEFE;
 }
 
@@ -106,7 +104,6 @@ body {
     margin-top: 16rem;
     margin-left: 2rem;
     float: left;
-    font-size: 4rem;
     color: #FEFEFE;
 }
 
@@ -116,7 +113,6 @@ body {
     margin-top: 16rem;
     margin-right: 2rem;
     float: right;
-    font-size: 4rem;
     color: #FEFEFE;
 }
 
@@ -559,7 +555,6 @@ input {
         margin-top: 1rem;
         margin-left: 1.5rem;
         float: left;
-        font-size: 2rem;
     }
 
     .cert-two {
@@ -568,7 +563,6 @@ input {
         margin-top: 1rem;
         margin-right: 1.5rem;
         float: right;
-        font-size: 2rem;
     }
 
     .cert-three {
@@ -577,7 +571,6 @@ input {
         margin-top: 22rem;
         margin-left: 1.5rem;
         float: left;
-        font-size: 2rem;
     }
 
     .cert-four {
@@ -586,7 +579,6 @@ input {
         margin-top: 22rem;
         margin-right: 1.5rem;
         float: right;
-        font-size: 2rem;
     }
 
     .worker {
