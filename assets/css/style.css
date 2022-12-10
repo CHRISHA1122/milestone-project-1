@@ -36,7 +36,7 @@ body {
     z-index: 1;
 }
 
-.navbar .navbar-brand h1 {
+.navbar .navbar-brand h2 {
     color: #2c2c2c;
     font-size: 3rem;
 }
@@ -156,6 +156,10 @@ body {
     opacity: 0.7;
 }
 
+.box-one h2 {
+    font-size: 2.5rem;
+}
+
 .box-two {
     display: inline;
     float: right;
@@ -169,6 +173,10 @@ body {
     border-radius: 2rem;
     padding: 1rem;
     opacity: 0.7;
+}
+
+.box-two h2 {
+    font-size: 2.5rem;
 }
 
 /*--------------------------------------------Content Contact*/
@@ -202,6 +210,10 @@ body {
     opacity: 0.7;
 }
 
+.contact-box h2 {
+    font-size: 2.5rem;
+}
+
 .contact-box p {
     margin-top: 1rem;
     color: #000000;
@@ -224,6 +236,10 @@ body {
     border-radius: 1rem;
     padding: 1rem;
     opacity: 0.7;
+}
+
+.contact-form h2 {
+    font-size: 2.5rem;
 }
 
 .contact-form p {
