@@ -1,5 +1,9 @@
 # Electrician Website
 
+![Image showing Website on different devices](assets/readme.images/am-i-responsive.png)
+
+[View the live site here](https://chrisha1122.github.io/milestone-project-1/)
+
 This is a website desinged to give a fictional Electrician Company an online presence.
 
 ## UX
@@ -48,7 +52,7 @@ The target audience is anyone who needs electrical work doing.
 
 #### Colours
 
-![Colour Palette image](assets/images/project-colours.png)
+![Colour Palette image](assets/readme.images/project-colours.png)
 
 * I used a colour picker extension built in to the browser to identify useful colours.
 * The primary colour choices of dark blue and white were chosen because they have a clean clear aspect while contrasting well with each other.
@@ -75,6 +79,41 @@ The target audience is anyone who needs electrical work doing.
 * Wireframes for the project were developed after the idea was scribbled on a piece of paper, the program used being Balsamiq.
 
 * ![Project Wireframe](assets/images/wireframe-)
+
+## Features
+
+The Eletrician website is designed to strictly adhere to accessibility guidelines across all pages, wiyh easy navigation between sections/pages.
+
+### Header/Footer
+
+The header/navbar with a built in hamburger button was taken from [Bootstrap](https://getbootstrap.com/), then changed to suit needs. First adding the company name to the left, then the three page links in the middle and finally a number to contact the company on the right. All styled in style.css file, with each been a clickable link. The header was also made so it always sticks at the top of the page for easy navigation.
+
+![Header/navbar](assets/readme.images/header-navbar.png)
+
+The footer was split into three sections with the company logo to the left to mimic the header and made a clickable link that takes the user back to the homepage. The middle section was used to give more contact information to the user that is easy to access. The final section was used for the company social media links that when clicked would open in a new page. I also added a note where the copywrite material should be indicating that this site is for educational use only.
+
+![Footer](assets/readme.images/footer.png)
+
+Both the header/navbar and footer were copy and pasted to all pages so as to give the user the same easy navigation through out the site.
+
+### Homepage Content
+
+The main image was chosen as an easy recognisable company van, credit given in the credits section.
+
+![Home Image](assets/readme.images/homepage-image.png)
+
+[Bootstrap](https://getbootstrap.com/) was uesd again here for the rounded circle effect on the certificates that are over the main image also to give them a display property to hide on smaller screen sizes. 
+
+The main certificate that is there on all size screens is a clickable link that opens in a new page and takes the user to NICEIC website.
+![Homepage Certificates](assets/readme.images/homepage-cert.png)
+
+### About Content
+
+The main image was chosen as a friendly looking worker, credit given in the credits section.
+
+![About Image](assets/readme.images/about-page.png)
+
+The text content for the about us and testimonials section was taken from two other websites and mixed/changed around to give the page some content, credit given in credits section.
 
 ## Installation
 
