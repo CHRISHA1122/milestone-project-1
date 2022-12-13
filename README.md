@@ -68,11 +68,10 @@ The target audience is anyone who needs electrical work doing.
 * Different certificates added at different stage of responsive design so always visible to the clients.
 * Clickable links open in a new page.
 
-#### Backgrounds
+#### Images
 
-* Home page background image used as an easy recognisable company van.
-* About page background image used as a friendly face.
-* Contact page background image used to showcase someone working.
+* Images were taken from a mix of [Google Images](https://images.google.com/) and [Unsplash](https://unsplash.com/).
+* All images used credited in the credits section.
 
 ## Wireframes
 
@@ -90,7 +89,7 @@ The header/navbar with a built in hamburger button was taken from [Bootstrap](ht
 
 ![Header/navbar](assets/readme.images/header-navbar.png)
 
-The footer was split into three sections with the company logo to the left to mimic the header and made a clickable link that takes the user back to the homepage. The middle section was used to give more contact information to the user that is easy to access. The final section was used for the company social media links that when clicked would open in a new page. I also added a note where the copywrite material should be indicating that this site is for educational use only.
+The footer was split into three sections with the company logo to the left to mimic the header and made a clickable link that takes the user back to the homepage. The middle section was used to give more contact information to the user that is easy to access. The final section was used for the company social media links using [Font awesome](https://fontawesome.com/) that when clicked would open in a new page. I also added a note where the copywrite material should be indicating that this site is for educational use only.
 
 ![Footer](assets/readme.images/footer.png)
 
@@ -98,22 +97,37 @@ Both the header/navbar and footer were copy and pasted to all pages so as to giv
 
 ### Homepage Content
 
-The main image was chosen as an easy recognisable company van, credit given in the credits section.
+* The main image was chosen as an easy recognisable company van, credit given in the credits section.
+* [Bootstrap](https://getbootstrap.com/) was uesd again here for the rounded circle effect on the certificates that are over the main image also to give them a display property to hide on smaller screen sizes.
 
 ![Home Image](assets/readme.images/homepage-image.png)
 
-[Bootstrap](https://getbootstrap.com/) was uesd again here for the rounded circle effect on the certificates that are over the main image also to give them a display property to hide on smaller screen sizes. 
+ * The main certificate that is visable on all screen sizes is a clickable link that opens in a new page and takes the user to NICEIC website.
 
-The main certificate that is there on all size screens is a clickable link that opens in a new page and takes the user to NICEIC website.
 ![Homepage Certificates](assets/readme.images/homepage-cert.png)
 
 ### About Content
 
-The main image was chosen as a friendly looking worker, credit given in the credits section.
+* The main image was chosen as a friendly looking worker, credit given in the credits section.
+* The text content for the about us and testimonials section was taken from two other websites and mixed/changed around to give the page some content, credit given in credits section.
+* Added an opaque box around the text so on bigger devices the image can still be seen in the background and on smaller devices the text appears under the image.
 
 ![About Image](assets/readme.images/about-page.png)
 
-The text content for the about us and testimonials section was taken from two other websites and mixed/changed around to give the page some content, credit given in credits section.
+### Contact Content
+
+* The main image was chosen to show someone working, credit given in the credits section.
+* The contact information section was mainly taken from the homepage image so as to match.
+* The address was used because the company name matched in the local area.
+* The form section was taken from [Bootstrap](https://getbootstrap.com/) and modified for this webpage.
+
+![Contact Image](assets/readme.images/contact-page.png)
+
+* The map is interactive and uses google api, and is directly beneath the contact information and form.
+* t provides the user with the location of the business.
+* The current map location was choosen for example and only because the company name matched.
+
+![Google Maps](assets/readme.images/google-map.png)
 
 ## Installation
 
