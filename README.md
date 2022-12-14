@@ -81,11 +81,11 @@ The target audience is anyone who needs electrical work doing.
 
 ## Features
 
-The Eletrician website is designed to strictly adhere to accessibility guidelines across all pages, wiyh easy navigation between sections/pages.
+The Eletrician website is designed to strictly adhere to accessibility guidelines across all pages, with easy navigation between sections/pages.
 
 ### Header/Footer
 
-The header/navbar with a built in hamburger button was taken from [Bootstrap](https://getbootstrap.com/), then changed to suit needs. First adding the company name to the left, then the three page links in the middle and finally a number to contact the company on the right. All styled in style.css file, with each been a clickable link. The header was also made so it always sticks at the top of the page for easy navigation.
+The header/navbar with a built in hamburger button was taken from [Bootstrap](https://getbootstrap.com/), then changed to suit needs. First adding the company name to the left, then the three page links in the middle and finally a number to contact the company on the right. All styled in style.css file, with each been a clickable link. The header was also made to always stick at the top of the page for easy navigation.
 
 ![Header/navbar](assets/readme.images/header-navbar.png)
 
@@ -124,10 +124,70 @@ Both the header/navbar and footer were copy and pasted to all pages so as to giv
 ![Contact Image](assets/readme.images/contact-page.png)
 
 * The map is interactive and uses google api, and is directly beneath the contact information and form.
-* t provides the user with the location of the business.
+* It provides the user with the location of the business.
 * The current map location was choosen for example and only because the company name matched.
 
 ![Google Maps](assets/readme.images/google-map.png)
+
+## _Technologies
+
+### Languages
+
+This project was built using HTML5 and CSS3. A Javascript link from [Bootstrap](https://getbootstrap.com/) was also added for the hamburger button on the navbar.
+
+### Frameworks
+
+Here is a list of the following technologies used in this project:
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+HTML 5 was used to create the structure of the website
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+CSS 3 was used to style the website.
+- [GitHub](https://github.com/)
+GitHub was used to store the projects code.
+- [Gitpod](https://gitpod.io/)
+Gitpod terminal was used to commit my code using Git and push it to Github.
+- [Balsamiq](https://balsamiq.com/)
+Balsamiq was used to design the wireframes for the project.
+- [Bootstrap](https://getbootstrap.com/)
+Bootstrap was used throughout the project at different stages.
+- [Font awesome](https://fontawesome.com/)
+Font awesome was used for all icons on the project. 
+- [Am I Responsive](https://ui.dev/amiresponsive)
+Am I responsive was used to ensure the website is responsive on all devices.
+
+## Testing
+
+### Browsers
+
+Developer tools on Firefox and Google Chrome were used throughout the project.
+The website was tested on three different browsers with no problems:
+
+* Microsoft Edge
+* Google Chrome
+* Firefox
+
+![Lighthouse testing](assets/readme.images/desktop-performance.png)
+
+### Mobile
+
+Developer tools on Firefox and Google Chrome were used throughout the project to check site responsiveness.
+Checked the website on my own mobile and other family members devices no problems reported.
+
+* Iphone
+* Galaxy
+
+![Lighthouse testing](assets/readme.images/mobile-performance.png)
+
+### Validator
+
+HTML Validator using [W3C Validation](https://validator.w3.org/) confirms no errors or warnings.
+
+![HTML Validator](assets/readme.images/html-validator.png)
+
+CSS Validator using [W3C Validation](https://jigsaw.w3.org/css-validator/) confirms no errors found.
+
+![CSS Validator](assets/readme.images/css-validator.png)
 
 ## Installation
 
