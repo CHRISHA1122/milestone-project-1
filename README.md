@@ -6,9 +6,54 @@
 
 This is a website desinged to give a fictional Electrician Company an online presence.
 
-## UX
+## Table of Contents
 
-### Project Goals
+- [**Project Goals**](#project-goals)
+ - [Customer Goals](#customer-goals)
+ - [Business goals](#business-goals)
+ - [Developer goals](#developer-goals)
+
+- [**User Experience UX**](#user-experience-ux)
+ - [Design Choices](#design-choices)
+ - [Fonts](#fonts)
+ - [Icons](#icons)
+ - [Colours](#colours)
+ - [Styling](#styling)
+ - [Images](#images)
+
+- [**Wireframes**](#wireframes)
+ - [Homepage Wireframe](#homepage-wireframe)
+ - [Aboutpage Wireframe](#aboutpage-wireframe)
+ - [Contactpage Wireframe](#contactpage-wireframe)
+
+
+- [**Features**](#features)
+ - [Header](#header)
+ - [Footer](#footer)
+ - [Homepage Content](#homepage-content)
+ - [About Content](#about-content)
+ - [Contact Content](#contact-content)
+ - [Map](#map)
+
+- [**Technologies**](#technologies)
+ - [Languages](#languages)
+ - [Frameworks](#frameworks)
+
+- [**Testing**](#testing)
+ - [Browsers](#browsers)
+ - [Mobile](#mobile)
+ - [HTML Validator](#html-validator)
+ - [CSS Validator](#css-validator)
+
+- [**Installation**](#installation)
+- [**Deployment**](#deployment)
+
+- [**Credits**](#credits)
+ - [Code](#code)
+ - [Images](#images)
+
+
+## Project Goals
 
 The main aim is to give customers contact information to get more business, while also trying to attract new clients by giving them the chance to see who the company are and what they can do.
 
@@ -16,7 +61,7 @@ Although fictional, the project is a representative example of a real-world busi
 
 The target audience is anyone who needs electrical work doing.
 
-#### Customer goals
+### Customer goals
 
 * Get any information needed quickly and easily.
 * Enjoyable experiance on the site.
@@ -24,20 +69,22 @@ The target audience is anyone who needs electrical work doing.
 * Find out what other customers thought about the company.
 * Easy to fill in contact form. 
 
-#### Business goals
+### Business goals
 
 * Get more customers, more business.
 * Look professional and competent.
 * Improved company reputation.
 
-#### Developer goals
+### Developer goals
 
 * Create a clean responsive static website for milestone project.
 * Make information easy to find.
 * An easy to navigate site. 
 * A project that would be good enough to go in a portfolio.
 
-## Design Choices
+## User Experience - UX
+
+### Design Choices
 
 #### Fonts
 
@@ -67,27 +114,42 @@ The target audience is anyone who needs electrical work doing.
 * Hover added on the main elements.
 * Different certificates added at different stage of responsive design so always visible to the clients.
 * Clickable links open in a new page.
+* Alt text and aria labels added on certain elements.
 
 #### Images
 
 * Images were taken from a mix of [Google Images](https://images.google.com/) and [Unsplash](https://unsplash.com/).
+* Certificate images taken from [Brands of the world]([Google Images](https://images.google.com/))
 * All images used credited in the credits section.
+* Appropriate images given alt or aria labels.
 
 ## Wireframes
 
-* Wireframes for the project were developed after the idea was scribbled on a piece of paper, the program used being Balsamiq.
+Wireframes for the project were developed after the idea was scribbled on a piece of paper, the program used being Balsamiq.
 
-* ![Project Wireframe](assets/images/wireframe-)
+### Homepage Wireframe
+
+![Homepage Wireframe](assets/readme.images/home-wireframe.png)
+
+### Aboutpage Wireframe
+
+![Aboutpage Wireframe](assets/readme.images/about-wireframe.png)
+
+### Contactpage Wireframe
+
+![Contactpage Wireframe](assets/readme.images/contact-wireframe.png)
 
 ## Features
 
-The Eletrician website is designed to strictly adhere to accessibility guidelines across all pages, with easy navigation between sections/pages.
+The Eletrician website is designed to strictly adhere to accessibility guidelines across all pages, with easy navigation between sections/pages. 
 
-### Header/Footer
+### Header
 
 The header/navbar with a built in hamburger button was taken from [Bootstrap](https://getbootstrap.com/), then changed to suit needs. First adding the company name to the left, then the three page links in the middle and finally a number to contact the company on the right. All styled in style.css file, with each been a clickable link. The header was also made to always stick at the top of the page for easy navigation.
 
 ![Header/navbar](assets/readme.images/header-navbar.png)
+
+### Footer
 
 The footer was split into three sections with the company logo to the left to mimic the header and made a clickable link that takes the user back to the homepage. The middle section was used to give more contact information to the user that is easy to access. The final section was used for the company social media links using [Font awesome](https://fontawesome.com/) that when clicked would open in a new page. I also added a note where the copywrite material should be indicating that this site is for educational use only.
 
@@ -123,13 +185,15 @@ Both the header/navbar and footer were copy and pasted to all pages so as to giv
 
 ![Contact Image](assets/readme.images/contact-page.png)
 
+### Map
+
 * The map is interactive and uses google api, and is directly beneath the contact information and form.
 * It provides the user with the location of the business.
 * The current map location was choosen for example and only because the company name matched.
 
 ![Google Maps](assets/readme.images/google-map.png)
 
-## _Technologies
+## Technologies
 
 ### Languages
 
@@ -165,7 +229,7 @@ The website was tested on three different browsers with no problems:
 
 * Microsoft Edge
 * Google Chrome
-* Firefox
+* Mozila Firefox
 
 ![Lighthouse testing](assets/readme.images/desktop-performance.png)
 
@@ -175,15 +239,17 @@ Developer tools on Firefox and Google Chrome were used throughout the project to
 Checked the website on my own mobile and other family members devices no problems reported.
 
 * Iphone
-* Galaxy
+* Samsung Galaxy
 
 ![Lighthouse testing](assets/readme.images/mobile-performance.png)
 
-### Validator
+### HTML Validator
 
 HTML Validator using [W3C Validation](https://validator.w3.org/) confirms no errors or warnings.
 
 ![HTML Validator](assets/readme.images/html-validator.png)
+
+### CSS Validator
 
 CSS Validator using [W3C Validation](https://jigsaw.w3.org/css-validator/) confirms no errors found.
 
@@ -214,3 +280,19 @@ the following steps were taken:
 5. Under "Source" click the drop-down menu labelled "None" and select "Main".
 6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
 7. Scroll back down to the "Pages" section to retrieve the deployed link.
+
+## Credits
+
+### Code
+
+* [Code Institute](https://codeinstitute.net) what i've learned from the learning material.
+* [Bootstrap](https://getbootstrap.com/) for it's built in functionality.
+
+### Images
+
+* Homepage image and Contactpage image both taken from Google images [Visit site here](https://www.elec-inn.co.uk/)
+* Aboutpage image taken from Unsplash [Visit site here](https://unsplash.com/)
+* Certificates images taken from Brands of the world [Visit site here](https://www.brandsoftheworld.com/)
+* Company Logo taken from Google images [Visit site here](https://www.dreamstime.com/)
+
+

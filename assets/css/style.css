@@ -141,7 +141,7 @@ body {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.box-one {
+.about-us {
     display: inline;
     float: left;
     height: auto;
@@ -156,11 +156,11 @@ body {
     opacity: 0.7;
 }
 
-.box-one h2 {
+.about-us h2 {
     font-size: 2.5rem;
 }
 
-.box-two {
+.testimonial {
     display: inline;
     float: right;
     height: auto;
@@ -175,7 +175,7 @@ body {
     opacity: 0.7;
 }
 
-.box-two h2 {
+.testimonial h2 {
     font-size: 2.5rem;
 }
 
