@@ -34,6 +34,7 @@ This is a website desinged to give a fictional Electrician Company an online pre
  - [About Content](#about-content)
  - [Contact Content](#contact-content)
  - [Map](#map)
+ - [Main Page](#main-page)
 
 - [**Technologies**](#technologies)
  - [Languages](#languages)
@@ -51,6 +52,9 @@ This is a website desinged to give a fictional Electrician Company an online pre
 - [**Credits**](#credits)
  - [Code](#code)
  - [Images](#images)
+ - [Text](#text)
+
+- [**Acknowledgements**](#acknowledgements)
 
 
 ## Project Goals
@@ -141,17 +145,25 @@ Wireframes for the project were developed after the idea was scribbled on a piec
 
 ## Features
 
-The Eletrician website is designed to strictly adhere to accessibility guidelines across all pages, with easy navigation between sections/pages. 
+The Eletrician website is designed to strictly adhere to accessibility guidelines across all pages, with easy navigation between sections/pages. Device responsiveness approach taken throughout project. 
 
 ### Header
 
-The header/navbar with a built in hamburger button was taken from [Bootstrap](https://getbootstrap.com/), then changed to suit needs. First adding the company name to the left, then the three page links in the middle and finally a number to contact the company on the right. All styled in style.css file, with each been a clickable link. The header was also made to always stick at the top of the page for easy navigation.
+* The header/navbar with a built in hamburger button was taken from [Bootstrap](https://getbootstrap.com/), then changed to suit needs. 
+* Added the company name to the left, which when clicked takes the user back to the home screen.
+* Home, About and Contact links added in the middle.
+* A contact number for the company on the right. 
+* All styled in style.css file, with each having hover.
+* The header was also made to always stick at the top of the page for easy navigation.
 
 ![Header/navbar](assets/readme.images/header-navbar.png)
 
 ### Footer
 
-The footer was split into three sections with the company logo to the left to mimic the header and made a clickable link that takes the user back to the homepage. The middle section was used to give more contact information to the user that is easy to access. The final section was used for the company social media links using [Font awesome](https://fontawesome.com/) that when clicked would open in a new page. I also added a note where the copywrite material should be indicating that this site is for educational use only.
+* Added the company logo to the left to mimic the header and made a clickable link that takes the user back to the homepage. 
+* The middle section was used to give more contact information to the user that is easy to access.
+* The final section was used for the company social media links using [Font awesome](https://fontawesome.com/) that when clicked would open in a new page.
+* Added a note where the copywrite material should be indicating that this site is for educational use only.
 
 ![Footer](assets/readme.images/footer.png)
 
@@ -192,6 +204,10 @@ Both the header/navbar and footer were copy and pasted to all pages so as to giv
 * The current map location was choosen for example and only because the company name matched.
 
 ![Google Maps](assets/readme.images/google-map.png)
+
+### Main Page
+
+* After About and Contact pages were created, added them by copy and pasting into the Home page so as to have one long scrolling main page for better user experiance.
 
 ## Technologies
 
@@ -290,9 +306,21 @@ the following steps were taken:
 
 ### Images
 
-* Homepage image and Contactpage image both taken from Google images [Visit site here](https://www.elec-inn.co.uk/)
-* Aboutpage image taken from Unsplash [Visit site here](https://unsplash.com/)
-* Certificates images taken from Brands of the world [Visit site here](https://www.brandsoftheworld.com/)
-* Company Logo taken from Google images [Visit site here](https://www.dreamstime.com/)
+* Homepage image and Contactpage image both taken from Google images 
+* [Visit site here](https://www.elec-inn.co.uk/)
+* Aboutpage image taken from Unsplash 
+* [Visit site here](https://unsplash.com/)
+* Certificates images taken from Brands of the world
+* [Visit site here](https://www.brandsoftheworld.com/)
+* Company Logo taken from Google images
+* [Visit site here](https://www.dreamstime.com/)
+
+### Text
+
+* About us and Testimonials text content was a mix taken from two websites.
+* [Visit site here](https://www.loganselectrics.co.uk/)
+* [Visit site here](https://www.harveyelectricalservices.com/)
+
+## Acknowledgements
 
 
