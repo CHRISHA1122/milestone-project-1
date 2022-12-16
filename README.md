@@ -115,7 +115,7 @@ The Eletrician website is designed to strictly adhere to accessibility guideline
 * The header/navbar with a built in hamburger button was taken from [Bootstrap](https://getbootstrap.com/), then changed to suit needs. 
 * Added the company name to the left, which when clicked takes the user back to the home screen.
 * Home, About and Contact links added in the middle.
-* A contact number for the company on the right. 
+* Added contact number for the company on the right. 
 * Used specification rules to overide [Bootstrap](https://getbootstrap.com/) navbar.
 * Used !Important to overide [Bootstrap](https://getbootstrap.com/) nav links so colour changes when hovered.
 * The header was also made to always stick at the top of the page for easy navigation.
