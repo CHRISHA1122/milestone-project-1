@@ -88,6 +88,7 @@ body {
     margin-left: 2rem;
     float: left;
     color: #FEFEFE;
+    font-size: 3rem;
 }
 
 .cert-two {
@@ -96,6 +97,7 @@ body {
     margin-right: 2rem;
     float: right;
     color: #FEFEFE;
+    font-size: 3rem;
 }
 
 .cert-three {
@@ -105,6 +107,7 @@ body {
     margin-left: 2rem;
     float: left;
     color: #FEFEFE;
+    font-size: 3rem;
 }
 
 .cert-four {
@@ -114,6 +117,7 @@ body {
     margin-right: 2rem;
     float: right;
     color: #FEFEFE;
+    font-size: 3rem;
 }
 
 .cert-multi {
@@ -552,7 +556,7 @@ input {
 
 }
 
-@media (min-width: 575px) and (max-width: 780px) {
+@media (min-width: 575px) and (max-width: 720px) {
 
     .van {
         background-position: center;
@@ -571,6 +575,7 @@ input {
         margin-top: 1rem;
         margin-left: 1.5rem;
         float: left;
+        font-size: 2.5rem;
     }
 
     .cert-two {
@@ -579,6 +584,7 @@ input {
         margin-top: 1rem;
         margin-right: 1.5rem;
         float: right;
+        font-size: 2.5rem;
     }
 
     .cert-three {
@@ -587,6 +593,7 @@ input {
         margin-top: 22rem;
         margin-left: 1.5rem;
         float: left;
+        font-size: 2.5rem;
     }
 
     .cert-four {
@@ -595,6 +602,7 @@ input {
         margin-top: 22rem;
         margin-right: 1.5rem;
         float: right;
+        font-size: 2.5rem;
     }
 
     .worker {
@@ -656,7 +664,7 @@ input {
     }
 }
 
-@media (min-width: 780px) and (max-width: 990px) {
+@media (min-width: 720px) and (max-width: 990px) {
 
     .worker {
         background-position: top;
@@ -677,6 +685,8 @@ input {
         font-size: 2.2rem;
         width: 95%;
         margin: 2rem;
+        padding: 0;
+        border: 0;
     }
 
     .logo {

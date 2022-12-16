@@ -9,51 +9,14 @@ This is a website desinged to give a fictional Electrician Company an online pre
 ## Table of Contents
 
 - [**Project Goals**](#project-goals)
- - [Customer Goals](#customer-goals)
- - [Business goals](#business-goals)
- - [Developer goals](#developer-goals)
-
 - [**User Experience UX**](#user-experience-ux)
- - [Design Choices](#design-choices)
- - [Fonts](#fonts)
- - [Icons](#icons)
- - [Colours](#colours)
- - [Styling](#styling)
- - [Images](#images)
-
 - [**Wireframes**](#wireframes)
- - [Homepage Wireframe](#homepage-wireframe)
- - [Aboutpage Wireframe](#aboutpage-wireframe)
- - [Contactpage Wireframe](#contactpage-wireframe)
-
-
 - [**Features**](#features)
- - [Header](#header)
- - [Footer](#footer)
- - [Homepage Content](#homepage-content)
- - [About Content](#about-content)
- - [Contact Content](#contact-content)
- - [Map](#map)
- - [Main Page](#main-page)
-
 - [**Technologies**](#technologies)
- - [Languages](#languages)
- - [Frameworks](#frameworks)
-
 - [**Testing**](#testing)
- - [Browsers](#browsers)
- - [Mobile](#mobile)
- - [HTML Validator](#html-validator)
- - [CSS Validator](#css-validator)
-
 - [**Installation**](#installation)
 - [**Deployment**](#deployment)
-
 - [**Credits**](#credits)
- - [Code](#code)
- - [Images](#images)
- - [Text](#text)
-
 - [**Acknowledgements**](#acknowledgements)
 
 
@@ -153,7 +116,8 @@ The Eletrician website is designed to strictly adhere to accessibility guideline
 * Added the company name to the left, which when clicked takes the user back to the home screen.
 * Home, About and Contact links added in the middle.
 * A contact number for the company on the right. 
-* All styled in style.css file, with each having hover.
+* Used specification rules to overide [Bootstrap](https://getbootstrap.com/) navbar.
+* Used !Important to overide [Bootstrap](https://getbootstrap.com/) nav links so colour changes when hovered.
 * The header was also made to always stick at the top of the page for easy navigation.
 
 ![Header/navbar](assets/readme.images/header-navbar.png)
@@ -213,7 +177,7 @@ Both the header/navbar and footer were copy and pasted to all pages so as to giv
 
 ### Languages
 
-This project was built using HTML5 and CSS3. A Javascript link from [Bootstrap](https://getbootstrap.com/) was also added for the hamburger button on the navbar.
+This project was built using [HTML5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/CSS). A Javascript link from [Bootstrap](https://getbootstrap.com/) was also added for the hamburger button on the navbar.
 
 ### Frameworks
 
@@ -235,6 +199,8 @@ Bootstrap was used throughout the project at different stages.
 Font awesome was used for all icons on the project. 
 - [Am I Responsive](https://ui.dev/amiresponsive)
 Am I responsive was used to ensure the website is responsive on all devices.
+- [W3C Validation](https://validator.w3.org/)
+W3C Validation was uesd for checking HTML and CSS for mistakes.
 
 ## Testing
 
@@ -256,6 +222,7 @@ Checked the website on my own mobile and other family members devices no problem
 
 * Iphone
 * Samsung Galaxy
+* Dev Tools Mobile Responsiveness
 
 ![Lighthouse testing](assets/readme.images/mobile-performance.png)
 
@@ -271,6 +238,24 @@ CSS Validator using [W3C Validation](https://jigsaw.w3.org/css-validator/) confi
 
 ![CSS Validator](assets/readme.images/css-validator.png)
 
+### Bugs
+
+* CSS slowing down loading time - Moved Javascript link to bottom of page for better loading.
+* Two circle certificate images not loading after testing - Swapped for two new images.
+* Google maps not loading up on some devices - Taken out for now to be added again in a later update.
+
+### Future Updates
+
+* Would like to add a gallery page to showcase some of the companies work.
+* Would like to redo the Google map and add back to site.
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.5731187042197!2d-1.0814300846587288!3d53.9393274378303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879317c622b9dbf%3A0x7d2e1cb5d266a4a1!2sMW%20Electrical%20Services%20Ltd!5e0!3m2!1sen!2suk!4v1668807924449!5m2!1sen!2suk"
+        width="600" height="450" style="border:0;" class="map" allowfullscreen="" loading="lazy" title="Location Map"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div> 
+
 ## Installation
 
 To clone this project into Github you will need:
@@ -284,7 +269,12 @@ To clone this project into Github you will need:
 
 ## Deployment
 
-This project was developed using Gitpod, commited to Git and pushed to Github using it's built in function.
+This project was developed using Gitpod, commited to Git and pushed to Github using it's built in console function.
+
+* git status - Gives status of repository.
+* git add - Adds files to staging area.
+* git commit -m "First commit" - Commits files to repository.
+* git push - Sends commited files to remote repository.
 
 To deploy this page to Github pages from its [Github repository](https://github.com/CHRISHA1122/milestone-project-1),
 the following steps were taken:
@@ -303,6 +293,7 @@ the following steps were taken:
 
 * [Code Institute](https://codeinstitute.net) what i've learned from the learning material.
 * [Bootstrap](https://getbootstrap.com/) for it's built in functionality.
+* [W3Schools](https://www.w3schools.com/) any trouble shooting.
 
 ### Images
 
@@ -322,5 +313,8 @@ the following steps were taken:
 * [Visit site here](https://www.harveyelectricalservices.com/)
 
 ## Acknowledgements
+
+* I would like to thank the [Code Institute](https://codeinstitute.net) for the learning material and all the other support on offer.
+* I would like to thank my mentor for all the help and guidence through the project. 
 
 
