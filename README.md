@@ -232,21 +232,19 @@ CSS Validator using [W3C Validation](https://jigsaw.w3.org/css-validator/) confi
 
 ### Bugs
 
-* CSS slowing down loading time - Moved Javascript link to bottom of page for better loading.
-* Two circle certificate images not loading after testing - Swapped for two new images.
-* Google maps not loading up on some devices - Taken out for now to be added again in a later update.
+* CSS slowing down loading time:
+FIX - Moved Javascript link to bottom of page for faster initial loading.
+
+* Two circle certificate images not loading after testing live site:
+FIX - Swapped for two new images and no problems.
+
+* Google maps not loading up on some devices: 
+FIX - Taken out and much improved performance in lighthouse testing.
 
 ### Future Updates
 
-* Would like to add a gallery page to showcase some of the companies work.
-* Would like to redo the Google map and add back to site.
-
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.5731187042197!2d-1.0814300846587288!3d53.9393274378303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879317c622b9dbf%3A0x7d2e1cb5d266a4a1!2sMW%20Electrical%20Services%20Ltd!5e0!3m2!1sen!2suk!4v1668807924449!5m2!1sen!2suk"
-        width="600" height="450" style="border:0;" class="map" allowfullscreen="" loading="lazy" title="Location Map"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div> 
+* Would like to add a Gallery page to showcase some of the companies work.
+* Would like to add the Google map back to site. 
 
 ## Installation
 
