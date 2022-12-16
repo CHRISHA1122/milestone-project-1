@@ -161,14 +161,6 @@ Both the header/navbar and footer were copy and pasted to all pages so as to giv
 
 ![Contact Image](assets/readme.images/contact-page.png)
 
-### Map
-
-* The map is interactive and uses google api, and is directly beneath the contact information and form.
-* It provides the user with the location of the business.
-* The current map location was choosen for example and only because the company name matched.
-
-![Google Maps](assets/readme.images/google-map.png)
-
 ### Main Page
 
 * After About and Contact pages were created, added them by copy and pasting into the Home page so as to have one long scrolling main page for better user experiance.
